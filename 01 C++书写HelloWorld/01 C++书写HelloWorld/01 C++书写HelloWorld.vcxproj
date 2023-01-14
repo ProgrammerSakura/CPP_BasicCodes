@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="01 C++书写HelloWorld.cpp" />
     <ClCompile Include="02 注释.cpp" />
+    <ClCompile Include="03 变量.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

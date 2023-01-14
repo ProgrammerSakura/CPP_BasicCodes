@@ -6,7 +6,7 @@ using namespace std;
 	多行注释
 	main 是一个程序的入口，每个程序都必须有这么一个函数，有且仅有一个。
 */
-int main() {
+int main2() {
 
 	// 单行注释
 	cout << "Hello world" << endl;
