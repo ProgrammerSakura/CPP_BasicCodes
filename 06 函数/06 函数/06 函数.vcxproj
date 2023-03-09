@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{181371a1-d3fc-4922-a015-f81b7fd14866}</ProjectGuid>
-    <RootNamespace>My01C书写HelloWorld</RootNamespace>
+    <ProjectGuid>{8c5189be-252e-465a-a337-3324485d747c}</ProjectGuid>
+    <RootNamespace>My06函数</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>01 C++初识</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,12 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="01 C++书写HelloWorld.cpp" />
-    <ClCompile Include="02 注释.cpp" />
-    <ClCompile Include="03 变量.cpp" />
-    <ClCompile Include="04 常量.cpp" />
-    <ClCompile Include="05 关键字.cpp" />
-    <ClCompile Include="06 标识符命名规则.cpp" />
+    <ClCompile Include="06 函数的分文件编写.cpp" />
+    <ClCompile Include="swap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="swap.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
